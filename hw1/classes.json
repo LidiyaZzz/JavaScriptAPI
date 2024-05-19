@@ -1,0 +1,20 @@
+[
+    {
+      "title": "Йога",
+      "time": "10:00 - 11:00",
+      "capacity": 20,
+      "attendees": 10
+    },
+    {
+      "title": "Пилатес",
+      "time": "12:00 - 13:00",
+      "capacity": 15,
+      "attendees": 12
+    },
+    {
+      "title": "Аэробика",
+      "time": "15:00 - 16:00",
+      "capacity": 25,
+      "attendees": 20
+    }
+  ]
