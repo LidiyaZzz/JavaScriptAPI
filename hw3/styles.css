@@ -1,0 +1,33 @@
+*{
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+.photo-container {
+  max-width: 70%; 
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.photo-info {
+  margin-top: 10px;
+}
+.like-button {
+  margin-top: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.like-button>svg {
+  width: 20px;
+  height: 20px;
+}
+.history-container {
+  margin-top: 10px;
+  text-align: center;
+} 

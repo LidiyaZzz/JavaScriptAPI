@@ -1,61 +1,61 @@
 .slider-container {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .slider {
-    display: flex;
-    overflow: hidden;
-  }
-  
-  .slider img {
-    width: 100%;
-    display: none;
-  }
-  
-  .slider img.active {
-    display: block;
-  }
-  
-  .prev-btn, .next-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #ffffffb4;
-    padding: 5px;
-    border: none;
-    cursor: pointer;
-  }
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-  .prev-btn>img, .next-btn>img {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .prev-btn {
-    left: 10px;
-  }
-  
-  .next-btn {
-    right: 10px;
-  }
-  
-  .dots-container {
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  .dot {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background: #333;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-  }
-  
-  .dot.active {
-    background: #305ec0;
-  }
+.slider {
+  display: flex;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  display: none;
+}
+
+.slider img.active {
+  display: block;
+}
+
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ffffffb4;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-btn>img, .next-btn>img {
+  width: 30px;
+  height: 30px;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.dots-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #305ec0;
+}
